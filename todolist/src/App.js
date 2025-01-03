@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="app">
+      <h1 className="app-title">To Do List</h1>
 
+      <div className="app-form">
+      </div>
+
+      <div className="app-list">
+      </div>
+
+      <div className="app-footer">
+      </div>
     </div>
   );
 }
